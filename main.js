@@ -11,4 +11,5 @@ client.login(TOKEN);
 
 client.on('ready', function() {
   console.log('I am ready!');
+  console.log(`My Id is: ${client.user.id}`)
 });
